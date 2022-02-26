@@ -1,0 +1,181 @@
+﻿
+/*====================================
+ Free To Use For Personal And Commercial Usage
+Author: http://binarytheme.com
+ Share Us if You Like our work 
+ Enjoy Our Codes For Free always.
+======================================*/
+
+/* user image section */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1#login {
+    color: #ffffff;
+    text-shadow: 2px 1px 11px rgba(46, 87, 21, 1);
+    font-weight: 700;
+    font-size: 70px;
+}
+.user-section {
+    margin-top:20px;
+    font-size:22px;
+    padding-bottom:10px;
+    /*background-color:rgb(83, 163, 163);*/
+    background-color: #92cf5c;
+}
+.user-section-inner {
+    height: 100px;
+width: 85px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+float: left;
+margin-right: 5px;
+margin-top: 10px;
+margin-left:10px;
+}
+    .user-section-inner img {
+        margin-left:10px;
+        margin-top:13px;
+        width:65px;
+        height:70px;
+        
+    }
+.user-info {
+    display: block;
+    color:#000!important;
+padding: 15px;
+margin-bottom: 0px
+}
+.user-text-online {
+    font-size:18px;
+    color:#fff
+}
+.user-circle-online {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+/* side-menu section */
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:rgba(74, 72, 126, 0);
+}
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #75C5B8;
+}
+.navbar-top-links > li > a {
+color: #FFFFFF;
+}
+.nav > li > a {
+padding: 20px 15px;
+}
+
+.nav > li:active {
+color: #fff;
+background-color: inherit;
+background-color: rgba(0,0,0,0.075) !important;
+text-shadow: none;
+}
+
+#side-menu {
+    background-color: #695ea5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ #side-menu a {
+            color:#fff;
+           /*border-bottom: 1px solid #84B899 !important;*/
+           height: 55px;
+           font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .selected {
+            background-color:rgb(83, 163, 163);
+        }
+/* back colors */
+        .blue {
+            background-color:#81daf6 !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+         .green {
+            background-color:rgb(144, 236, 192) !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+          .red {
+            background-color:#FB6B5B !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .yellow {
+        	background-color:#f0ad4e !important;
+            
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+input.green{
+    background-color: #FFFFFF !important;
+}
+#side-menu a:hover {
+    background-color: #4F467d;
+}
+
+  /* No border */
+.no-boder {
+    border:0px solid #5bc0de !important;
+}
+/* tap nvbar Section */
+
+#navbar {
+    background-color: rgba(77, 76, 146, 0.5) !important;
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+.navbar-brand img {
+    height:80px;
+}
+.top-label {
+    position: absolute;
+top: 50%;
+right: 50%;
+margin-top: -24px;
+margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+    font-size:18px;
+}
+
+
+
+.margin-tips {
+    margin:5px;
+}
+.navbar-default {
+border-color: #27A6BE;
+}
+/*media queries*/
+
+@media(min-width:768px) 
+{
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        min-height: 1000px;
+       
+       
+    }
+
+}
+
+@media(max-width:768px) {
+#wrapper {
+    margin-top:140px!important;
+    
+}
+}
